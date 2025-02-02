@@ -5,11 +5,27 @@ body {
 img {
   width: 100px;
   height: 100px;
+  /* added margin because text looked too close! */
+  margin-bottom: 15px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.plant {
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
 }
 
 /* do not edit this footer */
